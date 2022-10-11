@@ -1,0 +1,17 @@
+.contenedor-home{
+    border: 10px solid black;
+    height : 200px ;
+    width : 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+    border: 6px solid;
+    grid-template-areas: 
+        "home1 home2 home3"
+        "home1 home4 home5   "
+        ;
+    justify-content: center;
+    align-items: center;
+
+    
+}

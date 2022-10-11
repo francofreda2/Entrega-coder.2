@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home{
+    background-image: url("/files/portada\ lekker.jpg") ;
+    background-size: cover; 
+    height: 100vh;
+    
+
+    
+
+}

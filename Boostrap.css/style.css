@@ -1,0 +1,222 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img-fluid{
+    width: 100px;
+}
+
+
+header{
+    background-color: burlywood;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    margin: 0%;
+    
+    
+}
+
+.main-nav{
+    display: flex;
+    text-align: end;
+    grid-gap:20 px;
+    gap: 20px;
+  
+
+}
+
+.menu{
+    display: flex;
+    list-style-type: none; 
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+    font-family: 'Bungee Spice';
+ 
+
+}
+
+
+.li1{
+    font-family: 'Bungee Spice';
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+
+
+body {
+    background: rgba(10, 46, 74, 0.758);
+    color: rgb(1, 6, 9);
+}
+
+.section{
+    background-image: url(portadalekker.PNG);
+    height: 90vp;
+}
+
+
+.contenedor{
+    margin-right:  20px; ;
+    margin-left: 20px;
+    height : 90% ;
+    width : auto; 
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 1fr   ;
+    justify-content: center;
+}
+
+
+.contenedor > .lista {
+    border: outset 5px rgb(0, 0, 0);
+    padding: 20 px;
+    display: block;
+    font-size: 32px;
+    width: 400px;
+    height: 1500 px;
+    padding:20px;
+    text-align: center;
+    margin: 10px;
+    background-color: burlywood;
+    
+}
+
+.titulodesabores{
+    font-family: impact;
+    font-size: 60px;
+    font-weight: bold;
+    list-style-type: none; /* sin viñetas */
+
+
+}
+
+.lista{
+    font-family: helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    list-style-type: none; 
+    text-align: center;
+    margin: 5px; 
+    padding: 2px;
+    box-shadow: black;
+    grid-gap:20 px;
+    gap: 4px;
+}
+
+
+
+
+
+.ul-sabores{
+    list-style-type: none;
+
+}
+
+
+
+
+.sucursales{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr 1fr ;
+    
+
+}
+
+
+
+
+
+
+.sucursales .item1 {
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.devoto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.sucursales .item2 {
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.p{
+    font-size: 30px;
+    font-weight: normal;
+ }
+
+
+
+
+.almagro{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr 1fr ;
+    
+
+}
+
+.almagro1{
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.almagro2{
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.carrasco{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    width: 100%;
+}
+
+.carrasco1{
+    border-radius: 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carrasco2{
+    background: burlywood;
+    width: 100%;
+    font-family: 'Impact';
+    justify-items:center;
+    text-align: center;
+    border-radius: 10px;
+}
