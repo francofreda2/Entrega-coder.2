@@ -6,7 +6,8 @@
 
 
 .body {
-    background-image: linear-gradient(to top, #09203f 0%, #28323a 100%);
+    background-color: rgba(10, 46, 74, 0.758);
+    color: rgb(1, 6, 9);
 }
 
 .logo1{
@@ -24,21 +25,19 @@
     gap: 70px;
     padding: 10px;
     margin: 0px;
-    -webkit-animation: bounce-in-top 0.5s both;
-	    animation: bounce-in-top 1.2s both;
 }
 /*termina barra de nav***/
 
 
 /*Empieza portada***/
 .lekkerportada{
-    background-image: url("/files/portadalekker.jpg");
+    background-image: url("/files/portada\ lekker.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
     height: 100vh ;
 
- }
+}
  
 /*Termina portada***/
 
@@ -556,13 +555,22 @@
   /*   terminan efectos***/
 
   @media  (max-width: 768px){
-
-
         
+
+            /*Empieza portada***/
+        .lekkerportada{
+            background-repeat: no-repeat;
+            background-size: cover; 
+            width: 768px;
+            height: 700px ;
+
+        }
+        
+        /*Termina portada***/
 
           /*   Empieza  quienes somos***/
         .contenedor-home{
-            width: 100%;
+            width: 730px;
             height: 900px;
             border: 5px solid grey;
             grid-template-columns: repeat(1, 1fr);
@@ -578,6 +586,7 @@
         .home1 {
             background-color: rgb(230, 204, 173);
             grid-area:home1 ;
+            font-weight: 10px;
         }
 
         .home2{
@@ -622,6 +631,32 @@
              text-align: center;
              padding: 30px;
         
+        }
+
+        .article-historia{
+            font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 8px ;
+        }
+        
+        
+        
+        
+        .items-home{
+            Font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 5px;
+            font-weight: bold;
+            background: burlywood;
+        }
+        
+        
+        .p-historia{
+            Font-family: 'Dangrek', cursive;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
         }
 
 
@@ -840,19 +875,24 @@
     }
 
   @media  (max-width: 480px){
+    
 
-        .lekkerportada{
-            width: 100%;
-            background-image: url("/files/portadalekker.jpg");
-            background-repeat: no-repeat;
-            height: 100vh ;
-        
-        }
+             /*Empieza portada***/
+            .lekkerportada{
+                background-image: url(/files/portada\ lekker\ 480.jpg);
+                background-repeat: no-repeat;
+                background-size: cover; 
+                width: 480px;
+                height: 100vh ;
+    
+            }
+            
+            /*Termina portada***/
         
              /*   Empieza  home***/
         .contenedor-home{
-            width: 100%;
-            margin-left: 80px;
+            width: 370px;
+            margin-left: 60px;
             height: 900px;
             border: 5px solid grey;
             grid-template-columns: repeat(1, 1fr);
@@ -919,7 +959,7 @@
         .article-historia{
             font-family: 'Dangrek', cursive;
             text-decoration: none;
-            font-size: 15px;
+            font-size: 12px;
             padding: 10px ;
         }
         
@@ -933,8 +973,8 @@
 
             display: grid;
             height: 1200px;
-            margin-left: 100px;
-            width: 100%;
+            margin-left: 80px;
+            width: 320px;
             grid-template-columns: 1fr ;
             grid-template-rows: 1fr 1 fr 1fr ;
             justify-content: center;
@@ -992,9 +1032,9 @@
         /*   Empieza  sucursles***/
             
         .sucursales{
-            margin-left: 100px;
+            margin-left: 70px;
             margin-top: 1000px;
-            width: 470px;
+            width: 380px;
             display: grid;           
             height: 400px;
             grid-template-columns: 1fr 1fr ;
@@ -1033,8 +1073,8 @@
 
         .almagro{
             display: grid;
-            margin-left: 100px;
-            width: 470px;
+            margin-left: 70px;
+            width: 380px;
             height: 400px;
             grid-template-columns: 1fr 1fr ;
             margin-top: 200px;
@@ -1070,8 +1110,8 @@
             grid-template-columns: 1fr 1fr;
             height: 600px;
             margin-top: 200px;
-            margin-left: 100px;
-            width: 470px;
+            margin-left: 70px;
+            width: 380px;
         }
 
         .carrasco1{
@@ -1103,13 +1143,13 @@
 
 
         .p{
-            font-size: 20px;
+            font-size: 15px;
             font-weight: normal;
             margin: 50 px;
         }
 
         .p2 {
-            font-size:60 px;
+            font-size: 20 px;
             font-weight: bold;  
             margin: 50px;
         }
